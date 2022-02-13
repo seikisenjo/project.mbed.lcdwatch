@@ -1,0 +1,10 @@
+//void adjust_hour(void);
+//void adjust_minute(void);
+//void adjust_second(void);
+//int getPinState(int pinNumber);
+void SysTick_Handler (void);
+void Delay (unsigned long tick);
+void light(void);
+void button_init(void);
+void button_press(int input);
+void alarm_check(void);

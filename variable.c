@@ -1,0 +1,27 @@
+#include "variable.h"
+int hour=0;
+int minute=0;
+int second=0;
+int alarm_hour = 0;
+int alarm_minute = 0;
+int alarm_second = 0;
+int alarm_set = 0;
+char hr1;
+char hr2;
+char mi1;
+char mi2;
+char sc1;
+char sc2;
+char a_hr1;
+char a_hr2;
+char a_mi1;
+char a_mi2;
+char a_sc1;
+char a_sc2;
+char dot=':';
+char time[9];
+char a_time[9];
+char sel[1];
+int a_flag = 0;
+int alarm_done = 0;
+volatile unsigned long SysTickCnt;
